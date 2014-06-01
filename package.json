@@ -1,7 +1,7 @@
 {
   "name": "fn-utils",
   "description": "useful functions for writing functions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/androidStern/fn-utils",
   "author": {
     "name": "andrewstern",
