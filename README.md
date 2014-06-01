@@ -1,13 +1,21 @@
-# fn_utils
+# fn-utils
 
-functional utilities
+Useful functions for writing functions. Inspired by [allong.es](https://github.com/raganwald/allong.es).
 
 ## Getting Started
 Install the module with: `npm install fn_utils`
 
-```javascript
-var fn_utils = require('fn_utils');
-fn_utils.awesome(); // "awesome"
+```coffeescript
+{flip} = require 'fn_utils'
+{map} = require 'lodash'
+
+mapWith = flip map      #=> flip returns a curried function with its arguments flipped
+
+inc = (e)-> e + 1
+
+mapInc = mapWith inc
+
+mapInc [1,2,3]    #=> [2,3,4]
 ```
 
 ## Documentation
@@ -23,5 +31,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2014 andrewstern  
+Copyright (c) 2014 Andrew Stern  
 Licensed under the MIT license.
