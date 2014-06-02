@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../../lib/",
+  "sources": [
+    "index.coffee"
+  ],
+  "names": [],
+  "mappings": "AAoCmB"
+}

@@ -6,7 +6,7 @@ sinonChai = require('sinon-chai')
 
 chai.use(sinonChai)
 
-fn_utils = require('../lib/fn_utils.coffee')
+fn_utils = require('../lib/fn-utils.coffee')
 
 describe "test", ->
   beforeEach (done) ->
